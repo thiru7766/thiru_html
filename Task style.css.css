@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-image: url(flower.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+
+}
+p{
+    text-align: center;
+    margin-top: 100px;
+}
+.container 
+{
+    background: rgb(40, 93, 190);
+    text-align: right;
+}
+.container ul {
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+.container ul li{
+   width: 60px;
+   margin: 15px;
+   padding: 15px;
+
+}
+.container1 
+{
+    background: rgb(30, 80, 95);
+    text-align: center;
+    align-items: flex-end;
+    margin-top: 500px;
+}
+
+.container1 ul {
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+.container1 ul li{
+   width: 60px;
+   margin: 15px;
+   padding: 15px;
+
+}
+.container1  h2{
+    text-align: center;
+    align-items: flex-end;
+    border-bottom: 10px;
+    color: white ;
+}
